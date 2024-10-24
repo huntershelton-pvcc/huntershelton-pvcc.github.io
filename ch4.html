@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Name: Hunter Shelton-->
+    <!--The base of this program was created in ChatGPT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+    <style>
+        body {
+            background-image: url(robobook.jpg);
+        }
+        table {
+            width: 50%;
+            margin: auto;
+            background-color: rgb(230, 210, 173);
+            border: 2px solid blue;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+        }
+        th, td {
+            border: 2px solid blue;
+            padding: 10px;
+            text-align: left;
+            color: darkblue;
+        }
+        th {
+            background-color: #b3e0ff;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color:aliceblue"> Chapter 4: Networking </h1>
+    <h1 style="text-align: center; color:aliceblue"> Hunter Shelton </h1>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <td>
+                Network Classifications
+                <ol>
+                    <li>LAN</li>
+                    <li>MAN</li>
+                    <li>WAN</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Local Area Network (single building)</li>
+                    <li>Metropolitan Area Network (city)</li>
+                    <li>Wide Area Network (wider area/multiple cities)</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Network Models
+                <ol>
+                    <li>bus network</li>
+                    <li>star network</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>a network in which all the machines are connected to a common communication line called a bus</li>
+                    <li>a network in which one machine serves as the central focal point to which all the others are connected</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Protocols
+                <ol>
+                    <li>CSMA/CD Ethernet</li>
+                    <li>CSMA/CA Wifi</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Multiple Access with Collision Detection</li>
+                    <li>Multiple Access with Collision Avoidance</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Combining networks:
+                <ol>
+                    <li>repeater</li>
+                    <li>bridge</li>
+                    <li>switch</li>
+                    <li>router</li>
+                    <li>gateway</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>repeats signals between buses</li>
+                    <li>connects buses and only passes signals destined for the other side</li>
+                    <li>multi-connection bridge</li>
+                    <li>special-purpose computers forwarding messages between networks</li>
+                    <li>router communicating with the internet</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Client/server model
+                <ol>
+                    <li>P2P: peer-to-peer</li>
+                    <li>distributed system</li>
+                    <li>cloud computing</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>peers communicate as equals on a one-to-one basis</li>
+                    <li>software executing as processed on different computers</li>
+                    <li>huge pools of shared computers on the network allocated for use as needed</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Internet Addressing
+                <ol>
+                    <li>Tier 1</li>
+                    <li>Tier 2</li>
+                    <li>Tier 3</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Internet Service Provider for high-speed, high-capacity, international WAN</li>
+                    <li>Regional network providing redundancy</li>
+                    <li>Intranet supplying internet access to individual homes/businesses</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                IP Address
+                <ol>
+                    <li><a href="https://www.icann.org/">ICANN</a></li>
+                    <li>DNS</li>
+                    <li>TLD: Top-level domain</li>
+                    <li><a href="https://www.worldstandards.eu/other/tlds/">Country-code TLDs</a></li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Internet Corporation for Assigned Names and Numbers. Coordinates internet operation and assigns IP address blocks to ISPs.</li>
+                    <li>Domain Name System. Translates domain names into IP addresses via directory lookup.</li>
+                    <li>Reflects the domain classification</li>
+                    <li>Two-letter TLDs for specific countries</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Internet protocols
+                <ol>
+                    <li>FTP</li>
+                    <li>HTTP</li>
+                    <li>SMTP</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>File Transfer Protocol</li>
+                    <li>Hyper Text Transfer Protocol</li>
+                    <li>Simple Mail Transfer Protocol</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                World Wide Web
+                <ol>
+                    <li>URL</li>
+                    <li>client-side activities</li>
+                    <li>server-side activities</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>Uniform Resource Locator</li>
+                    <li>performed on a client (browser)</li>
+                    <li>performed by a server, such as a webserver</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Internet four-layer software
+                <ol>
+                    <li>application layer</li>
+                    <li>transport layer</li>
+                    <li>network layer</li>
+                    <li>link layer</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>software using internet communication to carry out tasks</li>
+                    <li>divides messages into distinct packets, reassembled at the destination</li>
+                    <li>decides the route to forward packets through the internet</li>
+                    <li>responsible for transferring and receiving the packet at the device level</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Internet is:
+                <ol>
+                    <li>packet-switching network</li>
+                    <li>fault tolerant</li>
+                    <li>redundant</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>packets are sent through switches in a network. packets contain data transmitted and control info for routing the data</li>
+                    <li>can deal with mistakes and errors</li>
+                    <li>has fallback pathways for delivery in the case of congestion or failure</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>Cybersecurity
+                <ol>
+                    <li>malware</li>
+                    <li>virus</li>
+                    <li>worm</li>
+                    <li>Trojan horse</li>
+                    <li>spyware</li>
+                    <li>phishing</li>
+                    <li>DDoS attack</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>malicious software</li>
+                    <li>program that replicates itself by inserting itself into another program</li>
+                    <li>autonomous program transferring itself through a network, forwarding copies of itself to other computers</li>
+                    <li>malware disguised as a desirable program. often sets a delayed payload</li>
+                    <li>software collecting information about the computer it resides upon</li>
+                    <li>technique of obtaining information simply by asking for it</li>
+                    <li>distributed denial-of-service attack</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Protection
+                <ol>
+                    <li>firewall</li>
+                    <li>spam filter</li>
+                    <li>proxy server</li>
+                    <li>antivirus software</li>
+                    <li>cryptography</li>
+                    <li>public key encryption</li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                    <li>filters traffic through a point in a network</li>
+                    <li>firewall blocking unwanted email</li>
+                    <li>software unit acting as an intermediary between client and server</li>
+                    <li>detects and removes known viruses and other infections</li>
+                    <li>study of sending messages securely in the presence of adversaries</li>
+                    <li>a known public key encrypts messages, and a secret private key is used to decrypt messages</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
