@@ -36,9 +36,9 @@ def main():
         perform_calculations()
         display_results()
 
-        yesno = input("\nWould you like calculate tuition & fees for another student? (Y/N): ")
+        yesno = input("\nWould you like to calculate tuition & fees for another student? (Y/N): ")
         while(yesno.upper() != "Y" and yesno.upper() != "N"): # loop to actually require Y/y to order again. otherwise, loop was default
-            yesno = input("Please press Y if you wish calculate tuition & fees for another student, or N to end the program.\n")
+            yesno = input("Please press Y if you wish to calculate tuition & fees for another student, or N to end the program.\n")
         if yesno.upper() == "N":
             more = False
             print("Thank you for enrolling at PVCC. Enjoy the semester!")
