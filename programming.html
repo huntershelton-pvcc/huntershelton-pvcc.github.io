@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--Name: Hunter Shelton-->
+	<!--The base of this program was created in ChatGPT -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chapter 5</title>
+	<style>
+		body {
+			background-image: url(robobook.jpg);
+		}
+		table {
+			width: 50%;
+			margin: auto;
+			background-color: rgb(230, 210, 173);
+			border: 2px solid blue;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+		}
+		th, td {
+			border: 2px solid blue;
+			padding: 10px;
+			text-align: left;
+			color: darkblue;
+		}
+		th {
+			background-color: #b3e0ff;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center; color:aliceblue"> Chapter 5: Algorithms & Software Testing </h1>
+	<h1 style="text-align: center; color:aliceblue"> Hunter Shelton </h1>
+	<table>
+		<tr>
+            <td colspan="2"><b>Phases of Computer Program Development:</b>
+                <ol>
+				    <li>Understand the problem</li>
+				    <li>Design an algorithm to solve the problem</li>
+				    <li>Write the program code in appropriate language based on the algorithm</li>
+				    <li>Enter the program and save</li>
+				    <li>Execute the program</li>
+				    <li>Test the program, find errors and debug, then retest</li>
+				    <li>Document and evaluate the program</li>
+                </ol>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Programming Structures:</b>
+                <ul>
+				    <li>Sequential Structure: Top-down execution</li>
+				    <li>Decision Structures: if/then/else</li>
+				    <li>Iterative (Looping):</li>
+                    <ul>
+				        <li>While loop: Continue looping as long something is true</li>
+				        <li>Repeat/Until loop: Continue looping until something is true</li>
+				        <li>For loop: loop a given number of times</li>
+                    </ul>
+				    <li>Recursive Structures:</li>
+                    <ul>
+				        <li>Repeat a set of instructions as a subtask of itself</li>
+				        <li>Repetition continues until: Degenerative case, which is a termination condition, is met (degenerative case is also called a "base case")</li>
+                    </ul>
+                </ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Two Classic Programming/Database Problems:</b>
+				<ul>
+					<li>Sorting: Decending order/Ascending order:</li>
+					<ul>
+						<li>Sorting Numbers</li>
+						<li>Sorting strings (in accordance with ASCII values)</li>
+					</ul>
+					<li>Searching: Find specific data that meet a certain criteria:</li>
+					<ul>
+						<li>In Database:</li>
+						<ul>
+							<li>Filters: Temporary search</li>
+							<li>Queries: Search criteria are saved so they don't have to be recreated</li>
+						</ul>
+					</ul>
+					<li>Two Popular search Techniques:</li>
+					<ul>
+						<li>Sequential Search: Search from top to bottom or bottom to top, one item at a time</li>
+						<li>Binary Search: Only works if data is SORTED first (start in the middle, then go to half of that, etc.)</li>
+					</ul>
+				</ul>
+			</td>
+		</tr>
+		<tr>            
+			<td colspan="2"><b>Two Classic Program Goals:</b>
+				<ul>
+					<li>Efficiency: Program takes minimal time and/or resources</li>
+					<li>Correctness: Program runs in expected ways and works for all expected conditions</li>
+				</ul>
+			</td> 
+		</tr>              
+		<tr>
+			<td colspan="2"><b>Software Testing & Verification</b>
+				<ul>
+				<li>Kinds of Test:</li>
+					<ul>
+						<li>Acceptance testing: Verifying whether the whole system works as intended.</li>
+						<li>Integration testing: Ensuring that software components or functions operate together.</li>
+						<li>Unit testing: Validating that each software unit runs as expected. A unit is the smallest testable component of an application.</li>
+						<li>Functional testing: Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions.</li>
+						<li>Performance testing: Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions.</li>
+						<li>Regression testing: Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test.</li>
+						<li>Stress testing: Testing how much strain the system can take before it fails. Stress testing is considered to be a type of non-functional testing.</li>
+						<li>Usability testing: Validating how well a customer can use a system or web application to complete a task.</li>
+					</ul>
+					<li>Software testing is done to detect: </li>
+					<ul>
+						<li>Architectural flaws</li>
+						<li>Poor design decisions</li>
+						<li>Invalid or incorrect functionality</li>
+						<li>Security vulnerabilities</li>
+						<li>Scalability issues</li>
+					</ul>
+					<li>Testing best practices:</li>
+					<ul>
+						<li>Continuous testing: Test each build as it becomes available using automated testing integrated with the deployment process.  It enables software to be validated in realistic test environments earlier in the process, which improves design and reduces risks.</li>
+						<li>Configuration management: Organizations centrally maintain test assets and track what software builds to test. Teams gain access to assets such as code, requirements, design documents, models, test scripts and test results. Good systems include user authentication and audit trails to help teams meet compliance requirements with minimal administrative effort.</li>
+						<li>Servic virtualization: Simulates the services and systems that are missing or not yet completed, enabling teams to reduce dependencies and test sooner. They can reuse, deploy and change a configuration to test different scenarios without having to modify the original environment.</li>
+						<li>Defect or "bug tracking": Monitoring defects is important to both testing and development teams for measuring and improving quality. Automated tools allow teams to track defects, measure their scope and impact, and uncover related issues.</li>
+						<li>Metrics and reporting: Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrate project metrics and present results in a dashboard. Teams quickly see the overall health of a project and can monitor relationships between test, development and other project elements.</li>
+					</ul>
+					<li>From: IBM <a href="https://www.w3schools.com/html/">What is software testing?</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
